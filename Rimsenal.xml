@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+		<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimsenal - Augmented Vanilla Pack</li>
+		</mods>
+        <match Class="PatchOperationSequence">
+			<success>Always</success>
+           <operations>
+		   
+		   <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_RSBattleRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_rifle/80</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_RSCarbine"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/180</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_PistolHeavyRevolver"]/weaponTags</xpath>
+				<value>
+					<li>ammo_pistol/100</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_RSAMRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_heavy/30</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_Repeater"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/90</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_AutomaticRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_rifle/160</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MarksmanRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_rifle/80</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_MilitiaRifle"]/weaponTags</xpath>
+				<value>
+					<li>ammo_intermediate/150</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Gun_FR"]/weaponTags</xpath>
+				<value>
+					<li>ammo_rifle/80</li>
+				</value>
+			</li>
+			</operations>
+		</match>
+		</Operation>		
+</Patch>
+
