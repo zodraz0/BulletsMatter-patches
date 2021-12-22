@@ -1,3 +1,3 @@
 # BulletsMatter-patches
 
-place is patches folder  
+place in patches folder  
