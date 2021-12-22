@@ -1,3 +1,3 @@
 # BulletsMatter-patches
 
-fuck patching 
+place is patches folder  
